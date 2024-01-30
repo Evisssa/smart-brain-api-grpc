@@ -16,7 +16,8 @@ const db =knex({
       host : '127.0.0.1',
       user : 'postgres',
       password : 'postgres',
-      database : 'smart-brain-db'
+      database : 'smart-brain-db',
+      port: 5432,
     }
   });
 
